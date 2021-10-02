@@ -10,5 +10,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup());
 
 app.use(router);
 
-app.listen(3333, () => console.log("🚀 Server started"));
+app.listen(3333, () => 
+  console.log("🚀 Server started")
+);
 
