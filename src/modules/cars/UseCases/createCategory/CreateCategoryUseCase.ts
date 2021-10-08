@@ -18,4 +18,5 @@ class CreateCategoryUseCase {
     this.categoriesRepository.create({ name, description});
   }
 }
+
 export {CreateCategoryUseCase}
